@@ -1,0 +1,129 @@
+/* Styling for the main container */
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+h3{
+  padding-left: 17px;
+}
+
+h3,h4{
+  font-size: 1.8rem;
+}
+
+h5,h6{
+  font-size: 1.2rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: #edeef1;
+  font-weight: 700;
+}
+.blockglow {
+  /* background:repeating-conic-gradient(from var(--a),#0f9972 0%,
+  #207149 5%,transparent 5%, transparent 40%,#10a1c2 50%);
+  animation: animate 4s linear infinite; */
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  position: relative;
+  max-width: 500px;
+  box-shadow: 0 0 40px rgba(57, 49, 49, 0.2);
+}
+
+@property --a{
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes animate{
+  0%{
+    --a:0deg;
+  }
+  100%{
+    --a:360deg;
+  }
+}
+
+/* Styling for the blur effect */
+.blurrr {
+  background-color: rgba(172, 200, 206, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+
+  
+}
+
+/* Styling for the form header */
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1a1717;
+}
+
+/* Styling for form labels */
+label {
+  font-weight: bold;
+  color: #201c1c;
+}
+
+/* Styling for form inputs */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for the "Remember me" checkbox */
+.custom-control-label {
+  color: #fffefe;
+}
+
+/* Styling for the Submit button */
+.btn-primary {
+  background-color: #c4c9d0;
+  color: #2d2525;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling for the "Forgot password" link */
+.forgot-password a {
+  color: #1f02b0;
+  text-decoration: none;
+  padding-top: 20px;
+  padding: 4px;
+}
+
+/* Styling for the "SignUp" button inside the link */
+.forgot-password .btn-primary {
+  padding: 5px 10px;
+}
+
+.imgs {
+  padding-top: 2px;
+  justify-content: center;
+  display: flex;
+}
+.container-image {
+background-color: rgb(44, 129, 178); 
+border-radius: 150px;
+align-items: center;
+display: flex;
+justify-content: center;
+height: 115px;
+width: 115px;
+}
+.profile {
+height: 100px;
+width: 100px;
+border-radius: 130px;
+} 
+
+.back{
+  background-image: url('../assets/all-images/blog-img/background.jpeg');
+  background-repeat: repeat-x;
+  /* background-size: cover; */
+}
